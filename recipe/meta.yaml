@@ -1,5 +1,5 @@
 {% set name = "sagemaker-jupyterlab-extension-common" %}
-{% set version = "0.1.11" %}
+{% set version = "0.1.12" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sagemaker-jupyterlab-extension-common-{{ version }}.tar.gz
-  sha256: 80dac13b756c00292c9a9f8e33d10fdb47aa334d675db39546fe09f1b5e747de
+  sha256: 56300fab3fa71b2795d11c159ddcd0d9255103001d5f6525d6a12104b455d26e
 
 build:
   noarch: python
@@ -31,6 +31,8 @@ requirements:
     - aws-embedded-metrics
     - y-py >=0.6.0,<0.7.0
     - ypy-websocket >=0.8.4,<0.9.0
+    - nbformat >=5.9.2
+    - pydantic ==1.*
 
 test:
   imports:
