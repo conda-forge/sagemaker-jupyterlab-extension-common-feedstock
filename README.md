@@ -147,6 +147,3 @@ Feedstock Maintainers
 * [@chaonengquan](https://github.com/chaonengquan/)
 * [@zuoyuanh](https://github.com/zuoyuanh/)
 
-
-<!-- dummy commit to enable rerendering -->
-
