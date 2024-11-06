@@ -145,5 +145,6 @@ Feedstock Maintainers
 
 * [@bhadrip](https://github.com/bhadrip/)
 * [@chaonengquan](https://github.com/chaonengquan/)
+* [@gogakoreli](https://github.com/gogakoreli/)
 * [@zuoyuanh](https://github.com/zuoyuanh/)
 
