@@ -148,6 +148,3 @@ Feedstock Maintainers
 * [@gogakoreli](https://github.com/gogakoreli/)
 * [@zuoyuanh](https://github.com/zuoyuanh/)
 
-
-<!-- dummy commit to enable rerendering -->
-
