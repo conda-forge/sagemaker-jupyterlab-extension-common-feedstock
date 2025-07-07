@@ -25,6 +25,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
+    - boto3
     - jupyterlab >=4
     - jupyter_events >=0.6.0
     - aiobotocore >=2.7.0
