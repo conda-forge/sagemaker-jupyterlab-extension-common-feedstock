@@ -1,5 +1,5 @@
 {% set name = "sagemaker-jupyterlab-extension-common" %}
-{% set version = "0.2.10" %}
+{% set version = "0.2.12" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: d5968f65f59ac569bc61830eb7ef2adc4d03ef742f17857f3ec0f6068eec9488
+  sha256: 4bac9235f4a5a78e14fe5ca4fe1561e66ffbb372745ff56371c19a74dafb9081
 
 build:
   noarch: python
@@ -34,6 +34,7 @@ requirements:
     - ypy-websocket >=0.12.0
     - nbformat >=5.9.2
     - pydantic >=1.10.17,<3
+    - pyjwt >=2.10.0,<3
 
 test:
   imports:
@@ -59,3 +60,4 @@ extra:
     - chaonengquan
     - bhadrip
     - zuoyuanh
+    - edwardps
