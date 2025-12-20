@@ -1,5 +1,5 @@
 {% set name = "sagemaker-jupyterlab-extension-common" %}
-{% set version = "0.2.15" %}
+{% set version = "0.2.16" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: bc025db7772061066feedd5cedf773c331c3fea7e8c08d90ef21001d9631ce20
+  sha256: 8d74b2ed898b19c9cce3ffd0ac11eb3be49e4cb6db79d58203782ca8e3b2d150
 
 build:
   noarch: python
