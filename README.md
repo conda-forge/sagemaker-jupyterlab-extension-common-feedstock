@@ -13,11 +13,10 @@ Current build status
 ====================
 
 
-<table><tr><td>All platforms:</td>
+<table><tr>
+    <td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=20570&branchName=main">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/sagemaker-jupyterlab-extension-common-feedstock?branchName=main">
-      </a>
+      <img src="https://img.shields.io/badge/noarch-disabled-lightgrey.svg" alt="noarch disabled">
     </td>
   </tr>
 </table>
@@ -149,5 +148,6 @@ Feedstock Maintainers
 * [@chaonengquan](https://github.com/chaonengquan/)
 * [@edwardps](https://github.com/edwardps/)
 * [@gogakoreli](https://github.com/gogakoreli/)
+* [@henrywa2](https://github.com/henrywa2/)
 * [@zuoyuanh](https://github.com/zuoyuanh/)
 
