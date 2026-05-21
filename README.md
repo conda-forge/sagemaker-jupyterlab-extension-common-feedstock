@@ -151,6 +151,3 @@ Feedstock Maintainers
 * [@henrywa2](https://github.com/henrywa2/)
 * [@zuoyuanh](https://github.com/zuoyuanh/)
 
-
-<!-- dummy commit to enable rerendering -->
-
