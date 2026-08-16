@@ -53,6 +53,7 @@ about:
 
 extra:
   recipe-maintainers:
+    - joshuatowner
     - henrywa2
     - aws-jasakshi
     - aws-pavankks
