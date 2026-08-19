@@ -40,31 +40,73 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `sagemaker-jupyterlab-extension-common` can be installed with `conda`:
+How to use
+----------
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda install sagemaker-jupyterlab-extension-common
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba install sagemaker-jupyterlab-extension-common
 ```
 
-It is possible to list all of the versions of `sagemaker-jupyterlab-extension-common` available on your platform with `conda`:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+# for adding to your local project
+pixi add sagemaker-jupyterlab-extension-common
+# for installing globally
+pixi global install sagemaker-jupyterlab-extension-common
+```
+
+</details>
+
+Search package versions
+-----------------------
+
+It is possible to list all of the versions of `sagemaker-jupyterlab-extension-common` available on your platform:
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda search sagemaker-jupyterlab-extension-common --channel conda-forge
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba search sagemaker-jupyterlab-extension-common --channel conda-forge
 ```
 
-Alternatively, `mamba repoquery` may provide more information:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+pixi search sagemaker-jupyterlab-extension-common --channel conda-forge
+```
+
+</details>
+
+<details>
+<summary>With mamba repoquery, which may provide more information</summary>
 
 ```
 # Search all versions available on your platform:
@@ -76,6 +118,8 @@ mamba repoquery whoneeds sagemaker-jupyterlab-extension-common --channel conda-f
 # List dependencies of `sagemaker-jupyterlab-extension-common`:
 mamba repoquery depends sagemaker-jupyterlab-extension-common --channel conda-forge
 ```
+
+</details>
 
 
 About conda-forge
@@ -151,5 +195,6 @@ Feedstock Maintainers
 * [@edwardps](https://github.com/edwardps/)
 * [@gogakoreli](https://github.com/gogakoreli/)
 * [@henrywa2](https://github.com/henrywa2/)
+* [@joshuatowner](https://github.com/joshuatowner/)
 * [@zuoyuanh](https://github.com/zuoyuanh/)
 
