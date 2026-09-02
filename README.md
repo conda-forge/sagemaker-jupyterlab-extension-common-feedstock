@@ -189,6 +189,7 @@ Feedstock Maintainers
 =====================
 
 * [@aakashmandavilli96](https://github.com/aakashmandavilli96/)
+* [@arkaprava08](https://github.com/arkaprava08/)
 * [@aws-jasakshi](https://github.com/aws-jasakshi/)
 * [@aws-pavankks](https://github.com/aws-pavankks/)
 * [@chaonengquan](https://github.com/chaonengquan/)
